@@ -1,0 +1,58 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Logo in Corner */
+.logo-corner {
+    position: absolute; /* Position logo in the corner */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    max-width: 100px; /* Adjust size */
+    z-index: 1000; /* Keep logo on top of other elements */
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 48px; /* Larger font for "Coming 2025" */
+    color: #333; /* Dark gray color */
+    margin: 0 0 40px 0; /* Space below heading */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+@font-face {
+    font-family: 'Chandler 42 Noir';
+    src: url('fonts/chandler42-noiroblique.otf') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Chandler 42 Noir', sans-serif;
+    font-size: 70px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.by-line {
+    font-family: Helvetica, Arial, sans-serif; /* Ensure byline uses Helvetica */
+    font-size: 24px; /* Size for the byline text */
+    color: #000; /* Lighter gray color */
+    font-style: italic; /* Make the text italic */
+    margin-top: 10px; /* Add some space above */
+}
